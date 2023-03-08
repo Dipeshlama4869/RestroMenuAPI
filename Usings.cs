@@ -3,6 +3,7 @@ global using MongoDB.Bson.Serialization.Attributes;
 global using MongoDB.Driver;
 
 
+global using RestroMenu;
 global using RestroMenu.Models;
 global using RestroMenu.Helpers;
 global using RestroMenu.Settings;

@@ -22,8 +22,5 @@ namespace RestroMenu.Controllers
             _companyMasterCollection = _dbHelper.GetCollection<CompanyMaster>();
         }
 
-        [HttpPost]
-
-
     }
 }

@@ -53,8 +53,8 @@
         [BsonElement("verified")]
         public string Verfied { get; set; }
 
-        [BsonElement("user_logs")]
-        public List<UserLog> UserLogs { get; set; }
+        //[BsonElement("user_logs")]
+        //public List<UserLog> UserLogs { get; set; }
 
         [BsonElement("app_secret")]
         public string AppSecret { get; set; }

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zyJSrCSCR4RuS/ChrkT/jG/wIxJW2rXP6JhyzVGGkpk8dbeYrk4DOKfN7Ek5qKohzQdVHWUNc4bRxtAW2RgyoQ==",
+  "dgSpecHash": "KKWWjt5Pl3BltqROib0zeAkby+HbCG56/kGrT2kB9gLqOe7A1GFAGSJg78syhwfU2jRylhSoU5DB5DFPjbNwJA==",
   "success": true,
   "projectFilePath": "D:\\code\\code\\RestroMenuApi\\RestroMenu\\RestroMenu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ldipe\\.nuget\\packages\\awssdk.core\\3.7.105.7\\awssdk.core.3.7.105.7.nupkg.sha512",
     "C:\\Users\\ldipe\\.nuget\\packages\\awssdk.s3\\3.7.103.14\\awssdk.s3.3.7.103.14.nupkg.sha512",
     "C:\\Users\\ldipe\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
+    "C:\\Users\\ldipe\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\ldipe\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\ldipe\\.nuget\\packages\\mailkit\\3.5.0\\mailkit.3.5.0.nupkg.sha512",
     "C:\\Users\\ldipe\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.1\\microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",

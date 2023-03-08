@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[3.7.103.14, )"
             },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "MailKit": {
               "target": "Package",
               "version": "[3.5.0, )"

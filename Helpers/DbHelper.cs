@@ -20,9 +20,7 @@ namespace RestroMenu.Helpers
             _database = database;
             _collectionNames = new Dictionary<Type, string>()
             {
-                { typeof(MenuItem), "menu_items" },
-                { typeof(MenuItemGroup), "menu_item_groups" },
-                { typeof(CompanyMaster), "company_masters" },
+               { typeof(User),  "users" }
             };
         }
 

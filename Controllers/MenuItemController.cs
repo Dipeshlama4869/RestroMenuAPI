@@ -22,26 +22,6 @@ namespace RestroMenu.Controllers
             _awsUploadService = awsUploadService;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> AddMenuItem([FromBody] AddInputModel addInputModel)
-        {
-            try
-            {
-
-                var companyid = ImsHelper.GetCompanyIdFromAuthRequest(Request);
-                menuItemEntryModel.companyId = companyid;
-                var ret = await menuItemService.AddMenuItem(menuItemEntryModel);
-                RbMessage message = new RbMessage { MessageID = "all", key = "all", Message = $"Refresh Menu" };
-                var res = await _messageSendingService.Send(message, companyid);
-                return new OkObjectResult(new FunctionResponse { status = "ok", result = ret });
-            }
-            catch (Exception ex)
-            {
-
-                return new BadRequestObjectResult(new FunctionResponse { status = "error", message = ex.Message });
-            }
-        }
-
         public class AddInputModel
         {
             public string companyId { get; set; }
